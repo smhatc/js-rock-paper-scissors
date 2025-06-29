@@ -11,11 +11,7 @@
 
 ## 🚀 Getting Started
 
-👉 **Play it here:** [https://your-deployment-link.com](https://your-deployment-link.com)
-
-👉 **Planning Materials:**
-- [User Stories](./planning/user-stories.md)
-- [Wireframe](./planning/wireframe.png)
+👉 **Play it here:** [https://smhatc.github.io/js-rock-paper-scissors](https://smhatc.github.io/js-rock-paper-scissors)
 
 ### How to Play
 1. Open the link to the game.
