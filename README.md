@@ -7,7 +7,7 @@
 - This is a simple Rock, Paper, Scissors game made with HTML, CSS, and JavaScript.
 - The player chooses rock, paper, or scissors.
 - The computer makes a random choice.
-- The winner is displayed in a message
+- The winner is displayed in a message.
 
 ## 🚀 Getting Started
 
@@ -21,12 +21,12 @@
 
 ## 💡 Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- HTML.
+- CSS.
+- JavaScript.
 
 ## 🚧 Next Steps
 
-- Add sound effects
-- Add animations
-- Make it work on phones
+- Add sound effects.
+- Add animations.
+- Make it work on phones.

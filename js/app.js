@@ -58,7 +58,7 @@ function compare() {
         
 }
 
-// Updates UI/HTML directly
+// Update UI/HTML directly
 function render() {
         // Update the container paragraph element with the result
         resultDisplayElement.textContent = `Computer chose ${computerChoice} and you chose ${playerChoice}. ${message}`;
