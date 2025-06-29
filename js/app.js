@@ -5,14 +5,13 @@ const choices = ["rock", "paper", "scissors"];
 /*-------------------------------- Variables --------------------------------*/
 
 let message;
-let playerChoice;
 let computerChoice;
+let playerChoice;
 
 /*------------------------ Cached Element References ------------------------*/
 
-const rockBtnEl = document.querySelector("#rock");
-const paperBtnEl = document.querySelector("#paper");
-const scissorsBtnEl = document.querySelector("#scissors");
+const playerChoiceElements = document.querySelectorAll(".choice");
+const resultDisplayElement = document.querySelector("#result-display");
 
 /*-------------------------------- Functions --------------------------------*/
 
