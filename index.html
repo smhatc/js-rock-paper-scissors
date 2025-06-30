@@ -12,44 +12,66 @@
         <title>Rock Paper Scissors Browser Game</title>
 </head>
 <body>
-        <header>
-                <h1>Rock Paper Scissors Browser Game</h1>
-                <p id="result-display"></p>
-                <button id="reset-button" class="btn btn-danger">Reset Game</button>
-        </header>
-        <main>
-                <button id="rock" class="game-button choice">🪨</button>
-                <button id="paper" class="game-button choice">📄</button>
-                <button id="scissors" class="game-button choice">✂️</button>
-        </main>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                How to Play
-        </button>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                        <div class="modal-content">
-                                <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">How to Play</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                        <p><strong>1. Choose your move:</strong><br>
-                                                Tap one of the buttons to select your move: 🪨 Rock, 📄 Paper, or ✂️
-                                                Scissors.</p>
-                                        <p><strong>2. Wait for the result:</strong><br>
-                                                The computer will randomly pick a move.</p>
-                                        <p><strong>3. Check who wins:</strong><br>
-                                                - 🪨 Rock beats ✂️ Scissors.<br>
-                                                - ✂️ Scissors beats 📄 Paper.<br>
-                                                - 📄 Paper beats 🪨 Rock.<br>
-                                                - The same move is a tie!</p>
-                                </div>
-                                <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><i class="bi bi-scissors"></i> RPS</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="./contact.html">Contact Us</a>
+                                        </li>
+                                </ul>
+                        </div>
+                </div>
+        </nav>
+        <div class="container">
+                <header>
+                        <h1>Rock Paper Scissors Browser Game</h1>
+                        <p id="result-display"></p>
+                        <button id="reset-button" class="btn btn-danger">Reset Game</button>
+                </header>
+                <main>
+                        <button id="rock" class="game-button choice">🪨</button>
+                        <button id="paper" class="game-button choice">📄</button>
+                        <button id="scissors" class="game-button choice">✂️</button>
+                </main>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        How to Play
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">How to Play</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                                <p><strong>1. Choose your move:</strong><br>
+                                                        Tap one of the buttons to select your move: 🪨 Rock, 📄 Paper, or ✂️
+                                                        Scissors.</p>
+                                                <p><strong>2. Wait for the result:</strong><br>
+                                                        The computer will randomly pick a move.</p>
+                                                <p><strong>3. Check who wins:</strong><br>
+                                                        - 🪨 Rock beats ✂️ Scissors.<br>
+                                                        - ✂️ Scissors beats 📄 Paper.<br>
+                                                        - 📄 Paper beats 🪨 Rock.<br>
+                                                        - The same move is a tie!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                        </div>
                                 </div>
                         </div>
                 </div>
